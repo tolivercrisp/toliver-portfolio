@@ -19,6 +19,8 @@ section {
     
 }
 
+
+/* Navigation Bar CSS */
 li, a, button, h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -73,6 +75,7 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+/* Section Cards CSS */
 .one {
     font-size: 200%;
     color: white;
