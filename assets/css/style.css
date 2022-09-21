@@ -1,0 +1,34 @@
+:root {
+    --purple: #1e193c;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background: white ;
+}
+
+.two {
+    background: white ;
+}
+
+.three {
+    background: white ;
+}
+
+.four {
+    background: white ;
+}
