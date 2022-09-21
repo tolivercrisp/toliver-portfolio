@@ -1,9 +1,9 @@
 :root {
-    --purple: #1e193c;
-    
+    --blue: #00004C;
+    --green: #669900;
 }
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,16 +13,19 @@
 section {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 2px solid white;
+    
 }
+    
 
 .one {
-    background: white ;
+    font-size: 200%;
+    color: white;
+    background: var(--blue);
 }
 
 .two {
-    background: white ;
+    background: var(--green);
 }
 
 .three {
