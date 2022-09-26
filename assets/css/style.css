@@ -21,7 +21,7 @@ section {
 
 
 /* Navigation Bar CSS */
-li, a, button, h1 {
+li, a, button, .nav_title {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -40,8 +40,9 @@ header {
 
 }
 
-h1 {
+.nav_title {
     cursor: pointer;
+    font-size: 30px;
 
 }
 
