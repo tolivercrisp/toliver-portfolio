@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 
 :root {
     --blue: #00004C;
@@ -21,19 +22,19 @@ section {
 
 
 /* Navigation Bar CSS */
-li, a, button, .nav_title {
+.nav_title, .nav_list, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    color: #ecf0f1;
-    background: var(--blue);
+    font-size: 25px;
+    color: black;
+    background: white;
     text-decoration: none;
 
 }
 
 header {
     display: flex;
-    background-color: var(--blue);
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
@@ -50,16 +51,16 @@ header {
     list-style: none;
 }
 
-.nav_links li {
+.nav_links, .nav_list {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav_links li a {
+.nav_links, .nav_list, a {
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links, .nav_list a:hover {
     color: #0088a0;
 }
 
@@ -79,18 +80,33 @@ button:hover {
 /* Section Cards CSS */
 .one {
     font-size: 200%;
-    color: white;
-    background: var(--blue);
+    color: black;
+    background-color: #cccccc;
+    background-image: url(../images/space-hero.png);
+    background-repeat: no-repeat;
+    height: 719px
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
-.two {
-    background: var(--green);
+.aboutme-section {
+    background: white;
+    border: 2px solid black;
+}
+
+.aboutme-header {
+    border: 2px solid black;
+    margin-left: 20vw
+    ;
 }
 
 .three {
     background: white ;
+    border: 2px solid black;
 }
 
 .four {
     background: white ;
+    border: 2px solid black;
 }
