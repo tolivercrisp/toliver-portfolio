@@ -6,6 +6,11 @@
     --green: #669900;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -314,7 +319,34 @@ button:hover {
 }
 
 /* Contact  */
-.four {
+.contact_section {
     background: #2c2c2c ;
-    
+    height: 30vh;
+}
+
+.contact_header {
+    display: inline;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-right: 45px;
+    height: 400px;
+    width: 100px;
+    border-right: #669900 3px solid;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_items {
+    padding: 10px;
+    border: white 2px solid;
+    height: 20px;
+    font-size: 12px;
+    color: white;
+
 }
