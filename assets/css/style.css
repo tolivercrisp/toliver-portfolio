@@ -38,6 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    
 
 }
 
@@ -124,7 +125,7 @@ button:hover {
     padding-right: 20px;
     height: 400px;
     width: 100px;
-    border-right: white 3px solid;
+    border-right: #669900 3px solid;
 }
 
 .aboutme-text {
@@ -134,12 +135,25 @@ button:hover {
     color: white;
 }
 
-/* Work section */
-.three {
+/* Work  */
+.work_section {
     background: #2c2c2c ;
     
 }
 
+.work_header {
+    color: white;
+    font-size: 32px;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 20px;
+    height: 400px;
+    width: 100px;
+    border-right: #669900 3px solid;
+}
+
+
+/* Contact  */
 .four {
     background: #2c2c2c ;
     
