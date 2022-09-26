@@ -77,17 +77,36 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-/* Section Cards CSS */
+/* Hero Section */
 .one {
     font-size: 200%;
     color: black;
     background-color: #cccccc;
     background-image: url(../images/space-hero.png);
     background-repeat: no-repeat;
-    height: 719px;
+    height: 89vh;
     width: 100%;
     background-position: center;
     background-size: cover;
+    justify-content: center;
+}
+
+.hero_text {
+    color: white;
+    font-size: 45px;
+}
+
+.hero_italics {
+    color: #5b5d7a;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.hero_text, .hero_italics {
+    margin-top: 240px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* About Me section */
@@ -102,7 +121,7 @@ button:hover {
     font-size: 32px;
     margin-top: 40px;
     padding-left: 150px;
-    padding-right: 10px;
+    padding-right: 20px;
     height: 400px;
     width: 100px;
     border-right: white 3px solid;
@@ -117,11 +136,11 @@ button:hover {
 
 /* Work section */
 .three {
-    background: white ;
-    border: 2px solid black;
+    background: #2c2c2c ;
+    
 }
 
 .four {
-    background: white ;
-    border: 2px solid black;
+    background: #2c2c2c ;
+    
 }
