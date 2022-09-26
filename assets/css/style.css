@@ -153,34 +153,45 @@ button:hover {
 }
 
 .container {
-    .container {
-        background: #000;
-        background: linear-gradient(135deg, #000 0%, #000 25%, #225eb3 50%, #ff30d2 75%, #600585 100%);
-        background-size: 400% 400%;
-        background-repeat: no-repeat;
-        display: flex;
-        width: 500px;
-        height: 500px;
-        max-width: 100vw;
-        max-height: 100vh;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        position: relative;
-        cursor: pointer;
-        transition: 0.5s all;
-    
-
-}
-
-.image_1 {
+    background: #000;
+    background: linear-gradient(135deg, #000 0%, #000 25%, #225eb3 50%, #ff30d2 75%, #600585 100%);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
     display: flex;
-    background-image: url(../images/toolkit.jpeg);
-    background-size: cover;
+    width: 500px;
+    height: 500px;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s all;
 }
 
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000 url(../images/toolkit.jpeg) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+}
 
-
+.container:hover {
+    background-position: 100% 100%;
+}
+.text {
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
 
 /* Contact  */
 .four {
