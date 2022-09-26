@@ -136,6 +136,7 @@ button:hover {
 .aboutme-text {
     padding-left: 10px;
     margin-top: 25px;
+    margin-right: 40px;
     font-size: 16px;
     color: white;
 }
@@ -321,7 +322,7 @@ button:hover {
 /* Contact  */
 .contact_section {
     background: #2c2c2c ;
-    height: 30vh;
+    height: 15vh;
 }
 
 .contact_header {
@@ -331,7 +332,7 @@ button:hover {
     margin-top: 40px;
     padding-left: 120px;
     padding-right: 45px;
-    height: 400px;
+    height: 150px;
     width: 100px;
     border-right: #669900 3px solid;
 }
@@ -339,14 +340,20 @@ button:hover {
 .contact_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center space-around space-between;
+    align-items: center;
+    margin-left: 40px;
 }
 
 .contact_items {
     padding: 10px;
-    border: white 2px solid;
+    margin: auto 15px;
     height: 20px;
-    font-size: 12px;
+    font-size: 18px;
     color: white;
+    cursor: pointer;
+}
 
+.contact_items:hover {
+    border-bottom: #0e84ab 3px solid;
 }
