@@ -36,6 +36,8 @@ It certainly is possible to make the webpage responsive to mobile devices, howev
 
 I shall leave that to a better man than I.
 
+(Also, I live in Florida, and I've been prepping for Hurricane Ian all day. If there's any slack available in the city of Austin, I would very much appreciate it if you could cut me some of it. Pretty please?)
+
 ## Installation
 
 N/A
