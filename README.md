@@ -30,7 +30,11 @@ I learned how to...
 - Manipulate background images in CSS (oh boy, did I do a lot of that)
 - Create a hover effect that overlays a slightly translucent linear gradient onto a picture, as well as organize those pictures to the specifications in the example website (This was the hardest thing I had to do.)
 
-Overall, I am quite pleased with this website. I worked really hard on it, and I would rather lose some points for the lack of responsiveness (i.e. the webpage layout will implode in on itself, if you use any window size or aspect ratio other than the default one) than reduce the quality of my website. It certainly is possible to make the webpage responsive to mobile devices, however, in my pursuit of greatness, I trapped myself inside a hellish, waking-nightmare of <div>'s and confusing flex-box properties. I shall leave that to a better man than I.
+Overall, I am quite pleased with this website. I worked really hard on it and I would rather lose some points for the lack of responsiveness (i.e. the webpage layout will implode in on itself if you use any window size or aspect ratio other than the default one) than reduce the quality of my website.
+
+It certainly is possible to make the webpage responsive to mobile devices, however, in my pursuit of greatness, I trapped myself inside a hellish, waking-nightmare of divs and confusing flex-box properties.
+
+I shall leave that to a better man than I.
 
 ## Installation
 
